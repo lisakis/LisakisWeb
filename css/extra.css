@@ -1,0 +1,31 @@
+.blacked{
+    background-color: black;
+    color: white;
+}
+.left{
+    font-family: 'Niconne', cursive;
+    font-size: 40px;
+}
+
+.right {
+    color: white;
+    text-transform: uppercase;
+    font-family: cursive;
+    font-size: 20px;
+    list-style: none;
+}
+
+.right a:visited{
+    color: white;
+}
+
+.right a:hover{
+    color: gray;
+}
+
+.soon{
+    font-size: 60px;
+}
+.lower{
+    margin-top: 2rem;
+}
