@@ -15,6 +15,9 @@
     list-style: none;
 }
 
+.right a{
+    color:white;
+}
 .right a:visited{
     color: white;
 }
