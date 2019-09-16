@@ -15,7 +15,8 @@
     list-style: none;
 }
 
-@media (max-width: 576px) {
+
+@media (max-width: 480px) {
     .nav-item{
         width: 100%;
         margin-bottom: 5px;
