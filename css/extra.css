@@ -15,6 +15,15 @@
     list-style: none;
 }
 
+@media (max-width: 576px) {
+    .nav-item{
+        width: 100%;
+        margin-bottom: 5px;
+        border-bottom: groove;
+        text-align: center;
+    }
+}
+
 .right a{
     color:white;
 }
@@ -31,4 +40,28 @@
 }
 .lower{
     margin-top: 2rem;
+}
+
+.carousel-item {
+    height: auto;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.break{
+    padding-top: 120px;
+}
+
+.slide{
+    height: 400px;
+}
+
+.emptybox{
+    background-color: white;
+    height: 150px;
+    border-radius: 40px;
 }
